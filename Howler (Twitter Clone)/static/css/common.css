@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=PT+Serif&family=Prompt&family=Roboto+Slab&family=Rubik:wght@300&display=swap');
+
+body {
+    background-color: #E7473C;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+@media ( max-width: 850px ) {
+    .main-content {
+        font-size: 80%;
+    }
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.user-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #f37c73;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color:#F0F0F0;
+    padding-right: 1%;
+}
+
+.profile-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #f37c73;
+    border-radius: 10px;
+    color:#F0F0F0;
+    padding-right: 1%;
+    width: 50%;
+    min-width: 360px;
+    font-size: 120%;
+}
+
+.avatar {
+    width: 80px;
+}
+
+.follow-button {
+    margin-bottom: 5%;
+    margin-right: 2%;
+    border: 4px outset rgb(167, 48, 48);
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-end;
+    gap: 1%;
+}
+
+.follows-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f37c73;
+    border-radius: 10px;
+    color:#F0F0F0;
+    padding-right: 1%;
+    width: 50%;
+    min-width: 360px;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.howls-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f37c73;
+    border-radius: 10px;
+    color:#F0F0F0;
+    padding-right: 1%;
+    width: 50%;
+    min-width: 360px;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.followed-user {
+    background-color: #E7473C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    min-width: 320px;
+    border-radius: 20px;
+    margin-bottom: 1%;
+}
+
+h1 {
+    color: #F0F0F0;
+    padding-top: 1%;
+    font-size: 270%;
+}
+
+h1:hover {
+    color: #cac9c9;
+    cursor: pointer;
+}
+
+h2 {
+    color: #F0F0F0;
+}
+
+p {
+    padding: 8px;
+}
+
+.login-box button {
+    border: 4px outset rgb(167, 48, 48);
+    background-color: #f37c73;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    border-radius: 1em;
+    width: 30%;
+    min-width: 200px;
+    margin: 5% auto;
+}
+
+.password-input {
+    border: 4px outset rgb(167, 48, 48);
+    background-color: #F0F0F0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    border-radius: 1em;
+    width: 30%;
+    min-width: 200px;
+    margin-bottom: 6% auto;
+    margin-top: 1%;
+}
+
+.username-input {
+    border: 4px outset rgb(167, 48, 48);
+    background-color: #F0F0F0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    border-radius: 1em;
+    width: 30%;
+    min-width: 200px;
+    margin-top: 6%;
+}
+
+.login-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    padding: 1%;
+}
+
+.howler-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    padding: 2%;
+}
+
+.username {
+    color: #F0F0F0;
+}
+
+.username:hover {
+    color: #b4b4b4;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #b4b4b4;
+}
+
+.hidden {
+    display: none;
+}
+
+.user {
+    display: none;
+}
+
+.logout-button {
+    border: 4px outset rgb(167, 48, 48);
+    background-color: #F0F0F0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    border-radius: 1em;
+    max-width: 100px;
+    font-size: 90%;
+}
+
+.not-logged-sty {
+    text-align: center;
+    border: 4px outset rgb(167, 48, 48);
+    border-radius: 30px;
+    margin: 5%;
+    color: #F0F0F0;
+    padding: 5%;
+    width: 30%;
+    min-width: 360px;
+    font-size: 100%;
+}
+
+.login-box {
+    border: 4px outset rgb(167, 48, 48);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+    align-items: center;
+    padding: 5%;
+    width: 30%;
+    min-width: 360px;
+}
+
+.login-submit {
+    margin: 1%;
+    background-color: #f37c73;
+    margin-top: 2px;
+}
+
+.need-login {
+    border: 4px outset rgb(167, 48, 48);
+    background-color: #F0F0F0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    border-radius: 1em;
+    width: 30%;
+    min-width: 200px;
+    margin: 5% auto;
+}
+
+.new-howl {
+    border: 4px outset rgb(167, 48, 48);
+    background-color: #F0F0F0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    width: 55%;
+    min-width: 360px;
+    margin-bottom: 3%;
+    border-radius: 25px;
+    background-color: #f37c73;
+}
+
+.howl-text {
+    background-color: #F0F0F0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    width: 100%;
+    min-width: 350px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 160px;
+    padding: 12px;
+    border-bottom: 4px outset rgb(167, 48, 48);
+}
+
+.howl-button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 12px;
+}
+
+.howl-button {
+    border-radius: 10px;
+    border: 4px outset rgb(167, 48, 48);
+    background-color: #F0F0F0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.followed-howls {
+    border: 4px outset rgb(167, 48, 48);
+    background-color: #F0F0F0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    width: 45%;
+    min-width: 340px;
+    border-radius: 25px;
+    margin: 5px;
+}
