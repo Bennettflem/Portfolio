@@ -1,0 +1,19 @@
+services:
+  proxy:
+    image: nginx:latest
+    restart: unless-stopped
+    volumes:
+      - ./proxy/default.conf.template:/etc/nginx/templates/default.conf.template
+    ports:
+      - "80:80"
+
+  hw5:
+    build: ./
+    restart: unless-stopped
+    volumes:
+      - ./src:/app/src
+      - ./static:/app/static
+      - ./templates:/app/templates
+      - ./server.js:/app/server.js
+    environment:
+      - PORT=80
