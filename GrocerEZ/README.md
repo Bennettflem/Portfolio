@@ -1,5 +1,4 @@
 # GrocerEZ
-# Group I: Final Project
 
 ## Features
 ### What is working:
@@ -10,10 +9,8 @@
 - Creation of a new user account
 
 ### What is not complete:
-- Sharing with other users
 - Strengthening of error paths
 - Modification of user account info
-- adding items to lists or recipes and adding lists and recipes to the current list
 - logging out when offline
 
 ## Authentication and Authorization
@@ -55,19 +52,3 @@ All items are stored in the items table and are mapped to their respective lists
 <br>
 ![ER Diagram](https://github.ncsu.edu/engr-csc342/csc342-2023Fall-GroupI/blob/main/Milestone2/database_table_relationships.png)
 
-## Contributions:
-### Erin
-- Proposal: The idea, problem, target users, and its potential solution.
-- Milestone1: Backend routes, Landing page frontend js for sign up and login, Helped with other js and html changes.
-- Milestone2: Re-implementing the backend routes with database functionality. Restructuring endpoints and debugging database connection.
-- Final Project: Debugging backend sql queries and adding necessary paths. Debugging frontend functionality.
-### Bennett
-- Proposal: The feature descriptions.
-- Milestone1: Helped create Mock Data, Javascript for populating items, recipes, and lists pages with respective mock data, Javascript for View Details button on recipes page, Helped with fronted functionality for adding a new item.
-- Milestone2: Frontend JS, debugging backend.
-- Final Project: Frontend JS, debugging related backend.
-### Jamel
-- Proposal: The wireframes.
-- Milestone1: HTML and CSS, Popup javascript.
-- Milestone2: HTML+CSS, Frontend JS, minor backend tweaks.
-- Final Project: Same as previous milestones, Offline Functionality, and PWA Installability.
