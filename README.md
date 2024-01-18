@@ -1,6 +1,6 @@
 # Project Portfolio
 
-Small collection of notable projects I completed while completing my CSC degreee at NCSU.
+Small collection of notable projects I finished while completing my CSC degreee at NCSU.
 
 ### Running a Project
 
