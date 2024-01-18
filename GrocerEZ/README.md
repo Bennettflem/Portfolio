@@ -1,6 +1,7 @@
 # GrocerEZ
 
 ## Features
+- Generic User -> username: user@gmail.com, password: password
 ### What is working:
 - All HTML and CSS for all pages
 - All CRUD operations for items, lists, and recipes
