@@ -1,5 +1,10 @@
-# Authenticated Howler
+# Howler
 
-1. I had trouble making my JWT a valid token based on the standards from jwt.io. I struggled with getting my signature to verify as a valid signature, I figured out that the problem was that I was not also base64url encoding the signature, like the header and the payload.
-
-2. One security risk is that the main and profile pages can be accessed through alteration of the frotend js code. The redirection of the html pages when the user is not logged in is all done on the fronted js. If a user inspects on the web browser, they can alter the source code to not redirect back to login.
+## Features
+- Json Web Token authentication on login
+- Generic User -> username: student, password: 1234
+- Users can:
+  1. Make posts within the character count
+  2. View user profiles by clicking their username
+  3. Follow/Unfollow other users
+  4. Logout of the application
